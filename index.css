@@ -1,0 +1,322 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.ul_I {
+    text-align: right;
+    background-color: #ff6600;
+}
+
+.ul_I li { 
+    transition: 0.5s all ease;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    color: white;
+}
+
+.ul_I li:hover {
+   
+    color: #521e13;
+
+}
+
+.ul_II {
+    text-align: center;
+    padding: 32px;
+    background-color: white;
+}
+
+.ul_II li {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.img_div_I {
+    padding: 6rem;
+    background-image: url("background_I.jpg");
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.text_div_I {
+    padding: 10px;
+}
+
+
+.text_div_I h1 {
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    font-family: sans-serif;
+    color: white;   
+
+}
+
+
+.text_div_I h4 {
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.text_div_I button {
+    transition: 0.5s all ease;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px 45px;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff6600;
+    
+}
+
+
+.text_div_I button:hover {  
+    transform: scale(1.03);
+    background-color: white;
+    color: #ff6600;
+}
+
+.img_div {
+
+    padding: 10px;
+}
+
+.img_div img {
+
+    width: 15rem;
+}
+
+
+
+.text_div_II {
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.text_div_II div {
+    width: 60%;
+    padding: 20px;
+
+}
+
+.text_div_II h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #1b4268;
+
+}
+
+.text_div_II h3 {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+
+
+.title_div_I {
+    margin-top: 5rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.title_div_I h1 {
+    transition: 0.3s all ease;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 8rem;
+    padding: 5px;
+    color: #1b4268;
+    font-family: sans-serif;
+}
+
+.title_div_I h1:hover {
+
+    color: #ff6600;
+}
+
+
+.text_div_III {
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.text_div_III div {
+    margin: 20px;
+    width: 30rem;
+
+}
+
+.text_div_III h2 {
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #1b4268;
+}
+
+.text_div_III h2:hover {
+
+    color: #ff6600;
+
+}
+
+
+.text_div_III h4 {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+}
+
+.text_div_III span {
+    background-color: #ff6600;
+    padding: 5px;
+}
+
+.img_div_II {
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.img_div_II div {
+    transition: 0.3s all ease;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin: 10px;
+    border: 3px solid #ff6600;
+    width: 20rem;
+
+}
+
+.img_div_II div:hover {
+    opacity: 1;
+}
+
+.img_div_II img {
+    width: 100%;
+
+}
+
+.text_div_IIII {
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.text_div_IIII div {
+    margin: 20px;
+}
+
+.text_div_IIII h1 {
+    font-size: 27px;
+    font-family: sans-serif;
+    color: #1b4268;
+    
+}
+
+.text_div_IIII h4 {
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #1b4268;
+    
+}
+
+.text_div_IIII button {
+    transition: 0.5s all ease;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 24px 60px;
+    background-color: #ff6600;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    
+}
+
+.text_div_IIII button:hover {
+    color: white;
+    background-color: #1b4268;
+}
+
+
+.text_div_IIIII {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    background-color: #102840;
+}
+
+
+.text_div_IIIII div {
+    margin: 20px;
+    margin-top: 5rem;
+    width: 20rem;
+
+}
+.text_div_IIIII h2 {
+    font-family: sans-serif;
+    color: #ff6600;
+
+}
+
+.text_div_IIIII h4 {
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #ffffff80;
+}
+
+
+@media screen and (max-width: 336px) {
+    .text_div_I h1 {
+
+        font-size: 30px;
+    }
+
+    .title_div_I h1 {
+
+        margin-left: 0px;
+    }
+
+  }
